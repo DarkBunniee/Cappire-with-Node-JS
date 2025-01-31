@@ -18,6 +18,9 @@
 |**Enable TypeScript**<br>False|  
 |**Add Eslint configuration**<br>False|  
 
+
+![Screen View](./public/image/screen-view.png)
+
 ## Application Environment
 
 This application is developed using **Node.js** and is designed to run in the **SAP Business Technology Platform (BTP)** environment. It is a simple form-based SAP Fiori application, generated using SAP Fiori tools.
