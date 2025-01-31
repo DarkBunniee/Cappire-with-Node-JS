@@ -1,0 +1,43 @@
+<mvc:View xmlns:form="sap.ui.layout.form" controllerName="appview.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+	xmlns:l="sap.ui.layout"
+	xmlns:core="sap.ui.core"
+    xmlns="sap.m" >
+
+    
+<Page id="page" title="{i18n>title}" class="sapUiContentPadding">
+    <l:VerticalLayout id="_IDGenVerticalLayout" class="customPadding" width="50%" >
+
+    <form:SimpleForm id="_IDGenSimpleForm" >
+         <Label id="_IDGenLabel1" text="Enter Name" labelFor="input-a" design="Bold" />
+         <Input id="input-a" required="true" />
+
+        <Label id="_IDGenLabel2" text="Enter Email" labelFor="input-b" design="Bold" />
+        <Input id="input-b" required="true" />
+
+        <Label id="_IDGenLabel3" text="Enter Phone Contact" labelFor="input-c" design="Bold" />
+        <Input id="input-c" required="true" />
+
+        <Label id="_IDGenLabel4" text="Enter Your Address" labelFor="input-d" design="Bold" />
+        <Input id="input-d" />
+
+    </form:SimpleForm>
+
+        <!-- <Button id="_IDGenButton" text="Default" press="onPress" /> -->
+        	<!-- <Button id="_IDGenButton" type="Emphasized"  text="POST" press="onPress" />
+            <Button id="_IDGenButton1"  type="Emphasized"  text="CANCEL" press="onBack" /> -->
+
+              <l:HorizontalLayout id="buttonHBox" class="sapUiSmallMarginTop">
+            <Button id="_IDGenButton" type="Emphasized" class="sapUiSmallMarginEnd" text="POST" press="onPress" />
+            
+            <Button id="_IDGenButton1" type="Emphasized" text="CANCEL" press="onBack" />
+        </l:HorizontalLayout>
+    </l:VerticalLayout>
+
+</Page>
+
+
+    
+</mvc:View>
+
+
